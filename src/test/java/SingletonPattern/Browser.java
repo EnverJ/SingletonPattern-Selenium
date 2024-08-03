@@ -21,7 +21,7 @@ public class Browser {
     }
 
     //4. Individual public method of the class
-    public void displayMesg() {
+    public void displayMsg() {
         System.out.println("Browser info");
     }
 }

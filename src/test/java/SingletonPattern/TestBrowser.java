@@ -2,11 +2,11 @@ package SingletonPattern;
 
 public class TestBrowser {
     public static void main(String[] args) {
-        //  Browser.getInstance().displayMesg();
+        //  Browser.getInstance().displayMsg();
 
         // multi threading environments
         Runnable task = () -> {
-            Browser.getInstance().displayMesg();
+            Browser.getInstance().displayMsg();
         };
         Thread thread1 = new Thread(task);
         Thread thread2 = new Thread(task);
